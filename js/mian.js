@@ -139,7 +139,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 7000);
 
             setTimeout(() => {
-                document.querySelector('.chair').style.left = '1500px';
                 quoteVideo.style.opacity = '0';
                 changeButton.style.opacity = '1';
             }, 9000);

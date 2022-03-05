@@ -190,12 +190,6 @@ body {
           transition-delay: 0.7s;
 }
 
-@media (max-height: 690px) {
-  .game-window {
-    height: 60%;
-  }
-}
-
 @media (max-height: 550px) {
   .game-window {
     margin-top: auto;

@@ -158,10 +158,6 @@ body {
     transition: transform 1s;
     transition-delay: 0.7s;
 
-    @media (max-height: 690px) {
-        height: 60%;
-    }
-
     @media (max-height: 550px) {
         margin-top: auto;
         margin-bottom: 10px;
