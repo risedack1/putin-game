@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Убираем возможность нажатия на кнопку
             changeButton.style.pointerEvents = 'none';
-            button.style.cssText = 'opacity: 1; pointer-events: none;';
+            button.style.cssText = 'opacity: 0; pointer-events: none;';
 
             function toLastSlide() {
                 let random = Math.floor(Math.random() * 7);
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     // Востанавливаем возможность нажатия на кнопку
                     changeButton.style.pointerEvents = 'auto';
-                    button.style.pointerEvents = 'auto';
+                    button.style.cssText = 'opacity: 1; pointer-events: auto;';
                 }
             }
         });
